@@ -148,3 +148,30 @@ body {
     text-transform: uppercase;
     opacity: .5;
 }
+
+
+@media screen and (max-width: 768px) {
+    .xt__container {
+        width: 70%;
+        height: auto;
+        top: inherit;
+        bottom: 10px;
+        right: 10px;
+        left: inherit;
+        border-radius: 4px;
+        box-shadow: 0 -10px 30px rgba(0, 0, 0, 0.1);
+    }
+
+    .xt__header--top {
+        /* position: fixed; */
+        width: 100%;
+        z-index: 9999;
+    }
+
+    .xt__header--bottom {
+        /* position: fixed; */
+        /* bottom: 0; */
+        width: 100%;
+    }
+
+}
