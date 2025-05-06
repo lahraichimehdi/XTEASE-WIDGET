@@ -195,4 +195,24 @@ body {
         transform: none;
     }
 
+    .xt__direct {
+        position: static;
+        background: #f0f8ff;
+        color: #26394b;
+        top: 8px;
+        left: 8px;
+        bottom: 8px;
+        right: 8px;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 10px;
+        font-size: 20px;
+        font-weight: 700;
+        cursor: pointer;
+        opacity: 0;
+        transition: opacity .5s ease;
+        text-transform: uppercase;
+    }
 }
