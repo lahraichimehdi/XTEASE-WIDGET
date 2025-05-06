@@ -160,18 +160,8 @@ body {
         left: inherit;
         border-radius: 4px;
         box-shadow: 0 -10px 30px rgba(0, 0, 0, 0.1);
+        transform: none;
     }
 
-    .xt__header--top {
-        /* position: fixed; */
-        width: 100%;
-        z-index: 9999;
-    }
-
-    .xt__header--bottom {
-        /* position: fixed; */
-        /* bottom: 0; */
-        width: 100%;
-    }
 
 }
