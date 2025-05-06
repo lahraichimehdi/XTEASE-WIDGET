@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,900;1,300&display=swap');
+body {
+    position: relative;
+}
+
+.xt__container * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.xt__container {
+    width: 300px;
+    height: auto;
+    position: fixed;
+    top: 30px;
+    right: 50%;
+    transform: translateX(50%);
+    background-color: aliceblue;
+    border-radius: 4px;
+    overflow: hidden;
+    font-size: 14px;
+    line-height: 1;
+    box-shadow: 8px 8px 12px #dcdcdc8f;
+}
+
+.xt__header--top {
+    position: relative;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #0f253c;
+    color: white;
+}
+
+.xt__hide {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.xt__header--title {
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+.xt__header--title i,
+.rt__hotel i,
+.xt__text div i {
+    margin-right: 5px;
+}
+
+.xt__header--bottom {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 15px;
+    background: #24374d;
+    color: white;
+}
+
+.rt__hotel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rt__price--total {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.rt__price--sub {
+    font-size: 11px;
+    text-align: center;
+    opacity: .9;
+    font-weight: 200;
+}
+
+.xt__all {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.xt__portals {
+    border-bottom: 1px solid #25384c12;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 7px 0;
+}
+
+.xt__portal_name {
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: -0.2px;
+}
+
+.xt__portal_price {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.xt__portal_price-price {
+    margin-right: 3px;
+}
+
+.xt__text {
+    background: #25384c;
+    color: white;
+    padding: 0 15px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.xt__text div {
+    margin-bottom: 5px;
+    font-weight: 100;
+    font-size: 13px;
+}
+
+.xt__text div i {
+    transform: rotate(45deg);
+    display: inline-flex;
+}
+
+.xt__container_footer,
+.xt__container_footer a {
+    font-size: 9px;
+    color: #26394b;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 10px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    opacity: .5;
+}
+
+.xt__direct {
+    position: absolute;
+    background: #f0f8ff;
+    color: #26394b;
+    top: 8px;
+    left: 8px;
+    bottom: 8px;
+    right: 8px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity .5s ease;
+    text-transform: uppercase;
+}
+
+.xt__direct div:first-child {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.xt__header--bottom:hover .xt__direct {
+    opacity: 1;
+}
